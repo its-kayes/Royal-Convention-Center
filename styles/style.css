@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    width: 168px;
+    height: 44px;
+}
+.card h1, h5{
+    font-family: 'Roboto', sans-serif;
+    color: #231D4F;
+}
+.card-body{
+    color: #848199;
+}
+.card-footer{
+    background-color: #F496D1;
+    border-radius: 24px !important;
+}
+.special{
+    position: relative;
+    top: -70px;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25) !important;
+    border-radius: 26px !important;
+    background-color: #F48B94 !important;
+}
+.hot{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -35px;
+    left: 200px;
+    width: 33px;
+    height: 25px;
+    background-color: #FF4E4E;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+.fa-gift{
+    color: blue;
+    font-size: 20px;
+}
+footer{
+    height: 280px;
+    color: white;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 280px;
+
+}
+.extra{
+    font-family: 'Roboto', sans-serif;
+}
+.extra2{
+    width: 100%;
+    height: 300px;
+    background-color: hsla(60, 58%, 65%, 0.945);
+}
+.email-input{
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 7px;
+}
+footer a img{
+    width: 100px;
+    height: 40px;
+    
+}
+
+
+@media (max-width: 680px) {
+    .special{
+        position: relative;
+        top: 0px;
+    }
+    .slider h1{
+        font-size: 24px;
+    }
+    .slider img{
+        width: 360px;
+        height: 586px;
+    }
+    .popup{
+        display: none;
+    }
+    .extra2{
+        display: flex;
+        flex-direction: column;
+    }
+    .extra2 form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
